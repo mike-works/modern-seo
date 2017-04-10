@@ -6,7 +6,7 @@
   "scripts": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mike-north/seo-workship.git"
+    "url": "git+https://github.com/mike-north/seo-workshop.git"
   },
   "keywords": [
     "seo",
@@ -15,9 +15,9 @@
   "author": "Mike North <michael.l.north@gmail.com> (https://mike.works)",
   "license": "UNLICENSED",
   "bugs": {
-    "url": "https://github.com/mike-north/seo-workship/issues"
+    "url": "https://github.com/mike-north/seo-workshop/issues"
   },
-  "homepage": "https://github.com/mike-north/seo-workship#readme",
+  "homepage": "https://github.com/mike-north/seo-workshop#readme",
   "dependencies": {
     "chalk": "^1.1.3",
     "commander": "^2.9.0",
