@@ -27,6 +27,16 @@ module.exports = function (opts) {
   
   let staticMw = express.static(publicPath);
 
+  const enforceHTTPS = (req, res, next) => {
+    // Header indicates edge server received request over HTTPS
+    if (req.headers['x-forwarded-proto'] === 'https'){
+      return next();
+    } else {
+      // Did not come over HTTPS. Fix that!
+      return res.redirect(301, join(`https://${req.hostname}${req.url}`));
+    }
+  };
+  app.use(enforceHTTPS);
   app.use(sassMw);
   app.use('/', staticMw);
   app.use('/js', express.static(path.join(__dirname, '..', 'public', 'js')));
