@@ -34,7 +34,7 @@ module.exports = function (opts) {
 
   new Exercise(opts.exercise).load().begin();
 
-  app.listen(opts.port);
+  app.listen(process.env.PORT || opts.port);
   console.log(chalk.yellow('Running on http://localhost:' + opts.port + '. Press Ctrl + c to stop'));
   return app;
 }
