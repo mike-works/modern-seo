@@ -33,7 +33,7 @@ module.exports = function (opts) {
       return next();
     } else {
       // Did not come over HTTPS. Fix that!
-      return res.redirect(301, join(`https://${req.hostname}${req.url}`));
+      return res.redirect(301, path.join(`https://${req.hostname}${req.url}`));
     }
   };
   app.use(enforceHTTPS);
