@@ -1,1 +1,1 @@
-web: ./run -e process.env.EXERCISE
+web: ./run -e $EXERCISE
