@@ -1,0 +1,44 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/tomorrow-night.css">
+    <link rel="stylesheet" href="app.css" />
+
+  </head>
+  <body>
+    <h1>Instructions for deployment</h1>
+    <!-- BEGIN EXERCISE -->
+    <h2>Setup a Heroku account</h2>
+    <p>SEO is all about how the outside world sees your web application, so can't really do much without first deploying to a server somewhere.</p>
+    <p>Make sure you begin by installing <a href="https://devcenter.heroku.com/articles/heroku-cli">Heroku toolbelt</a>, and then run</p>
+
+    <pre>
+      <code class="sh">
+  heroku login
+      </code>
+    </pre>
+    to login with your heroku credentials, and then finally...
+    <pre>
+      <code class="sh">
+  heroku apps:create [app-name]
+  heroku config:set EXERCISE=deploy
+      </code>
+    </pre>
+
+    to set up a new app. Now you just have to push to the heroku git remote to trigger a deploy
+    <pre>
+      <code class="sh">
+  git push heroku master
+      </code>
+    </pre>
+
+    <!-- END EXERCISE -->
+    <script src="js/tester.js"></script>
+    <script src="js/utils.js"></script>
+    <script src="js/highlight.pack.js"></script>
+    <script src="js/jquery-3.2.0.min.js"></script>
+    <script src="tests.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+  </body>
+</html>

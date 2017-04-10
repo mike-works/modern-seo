@@ -1,6 +1,6 @@
-# SassTastic
+# SEOptimal
 
-A project companion for Sass training workships
+A project companion for SEO training workships
 
 To run:
 
