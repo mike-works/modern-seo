@@ -1,1 +1,1 @@
-web: ./run -e tiny
+web: ./run -e process.env.EXERCISE
