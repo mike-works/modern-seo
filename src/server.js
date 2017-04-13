@@ -32,11 +32,15 @@ module.exports = function (opts) {
     if (req.headers['x-forwarded-proto'] === 'https'){
       return next();
     } else {
+      console.log('redirecting HTTP --> HTTPS');
       // Did not come over HTTPS. Fix that!
       return res.redirect(301, path.join(`https://${req.hostname}${req.url}`));
     }
   };
-  app.use(enforceHTTPS);
+  if (process.env.USE_HTTPS) {
+    console.log('redirecting HTTP --> HTTPS');
+    app.use(enforceHTTPS);
+  }
   app.use(sassMw);
   app.use('/', staticMw);
   app.use('/js', express.static(path.join(__dirname, '..', 'public', 'js')));
