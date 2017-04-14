@@ -4,7 +4,7 @@
   "description": "A Modern SEO workshop project",
   "main": "index.js",
   "scripts": {
-    "heroku-postbuild": "yarn remove node-sass; yarn add node-sass@latest"
+    // "heroku-postbuild": "yarn remove node-sass; yarn add node-sass@latest"
   },
   "repository": {
     "type": "git",
