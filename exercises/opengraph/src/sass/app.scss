@@ -1,0 +1,20 @@
+.courses {
+  list-style: none;
+  .course {
+    min-height: 75px;
+    a {
+      text-decoration: none;
+    }
+    .course-image {
+      height: 64px;
+      float: left;
+      margin-right: 10px;
+    }
+  }
+}
+
+.course-header {
+  .course-image {
+    max-width: 100%;
+  }
+}

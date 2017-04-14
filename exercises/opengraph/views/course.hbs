@@ -1,0 +1,29 @@
+<html>
+  <head>
+    <title>Deployment Instructions</title>
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/base.css">
+    <link rel="stylesheet" href="/css/tomorrow-night.css">
+    <link rel="stylesheet" href="/app.css" />    
+  </head>
+  <body>
+    <!-- BEGIN EXERCISE -->
+    <p>
+      <a href="/">&lt; Back</a>
+    </p>
+    <div class="course-header">
+      <h1>Course: {{course.attributes.title}}</h1>
+      <img class='course-image' src="{{course.attributes.image-info.fbshare.url}}" alt="{{course.attributes.title}}">
+    </div>
+    <p>
+      {{course.attributes.description}}
+    </p>
+    <!-- END EXERCISE -->
+    <script src="/js/tester.js"></script>
+    <script src="/js/utils.js"></script>
+    <script src="/js/highlight.pack.js"></script>
+    <script src="/js/jquery-3.2.0.min.js"></script>
+    <script src="/tests.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+  </body>
+</html>

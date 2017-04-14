@@ -1,0 +1,21 @@
+.courses {
+  list-style: none;
+}
+
+.courses .course {
+  min-height: 75px;
+}
+
+.courses .course a {
+  text-decoration: none;
+}
+
+.courses .course .course-image {
+  height: 64px;
+  float: left;
+  margin-right: 10px;
+}
+
+.course-header .course-image {
+  max-width: 100%;
+}
