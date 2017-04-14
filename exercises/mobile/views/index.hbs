@@ -1,25 +1,27 @@
 <html>
   <head>
-    <title>{{course.attributes.title}}</title>
-
+    <title>Deployment Instructions</title>
     <link rel="stylesheet" href="/css/normalize.css">
     <link rel="stylesheet" href="/css/base.css">
     <link rel="stylesheet" href="/css/tomorrow-night.css">
     <link rel="stylesheet" href="/app.css" />    
-
   </head>
   <body>
+    <h1>Courses</h1>
     <!-- BEGIN EXERCISE -->
-    <p>
-      <a href="/">&lt; Back</a>
-    </p>
-    <div class="course-header">
-      <h1>Course: {{course.attributes.title}}</h1>
-      <img class='course-image' src="{{course.attributes.image-info.square.url}}" alt="{{course.attributes.title}}">
-    </div>
-    <p>
-      {{course.attributes.description}}
-    </p>
+    <ul class='courses'>
+      
+      {{!-- iterate over all the courses --}}    
+      {{#each courses as |course|}}
+        <li class='course'>
+          <a href='/course/{{course.attributes.slug}}'>
+            <img src={{course.attributes.image-info.square2x.url}} alt="" class="course-image">
+            <h3 class="course-title">{{course.attributes.title}}</h3>
+          </a>
+          <p>{{course.attributes.summary}}</p>
+        </li>
+      {{/each}}
+    </ul>
     <!-- END EXERCISE -->
     <script src="/js/tester.js"></script>
     <script src="/js/utils.js"></script>
