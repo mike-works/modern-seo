@@ -42,7 +42,12 @@
     <script src="/tests.js"></script>
     <script>hljs.initHighlightingOnLoad();</script>
     <script>
-      addToHomescreen();
+      addToHomescreen({
+	appID: 'modern.seo',		// local storage name (no need to change)
+	message: 'Add to home?',				// the message can be customized
+  modal: false,	// prevent further actions until the message is closed
+	mandatory: false,			// you can't proceed if you don't add the app to the homescreen
+});
     </script>
   </body>
 </html>
