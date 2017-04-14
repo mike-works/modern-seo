@@ -3,7 +3,9 @@
   "version": "0.0.0",
   "description": "A Modern SEO workshop project",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "postinstall": "yarn remove node-sass; yarn add node-sass@latest"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mike-north/seo-workshop.git"
