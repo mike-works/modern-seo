@@ -4,7 +4,6 @@
   "description": "A Modern SEO workshop project",
   "main": "index.js",
   "scripts": {
-    "postinstall": "yarn remove node-sass; yarn add node-sass@latest"
   },
   "repository": {
     "type": "git",
