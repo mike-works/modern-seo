@@ -26,6 +26,44 @@
   </head>
   <body>
     <!-- BEGIN EXERCISE -->
+
+    <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@id": "https://mike-seo.herokuapp.com/",
+          "name": "Courses"
+        }
+      },{
+        "@type": "ListItem",
+        "position": 2,
+        "item": {
+          "@id": "https://mike-seo.herokuapp.com/course/{{course.attributes.slug}}",
+          "name": "{{course.attributes.title}}",
+          "image": "http://example.com/images/icon-author.png"
+        }
+      }]
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "Course",
+      "name": "{{course.attributes.title}}",
+      "description": "{{course.attributes.summary}}",
+      "provider": {
+        "@type": "Organization",
+        "name": "Frontend Masters",
+        "sameAs": "https://frontendmasters.com"
+      }
+    }
+    </script>
+
     <p>
       <a href="/">&lt; Back</a>
     </p>
