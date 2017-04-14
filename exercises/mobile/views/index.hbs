@@ -7,7 +7,15 @@
     <link rel="stylesheet" href="/app.css" />
     <link rel="stylesheet" type="text/css" href="/addtohomescreen.css">
     <script src="/addtohomescreen.min.js"></script>
-    <!-- MOBILE ICONS
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Frontend Masters">
+
+    <link rel="manifest" href="/manifest.json">
+
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
     <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
@@ -26,7 +34,7 @@
     <meta name="msapplication-square150x150logo" content="/mediumtile.png" />
     <meta name="msapplication-wide310x150logo" content="/widetile.png" />
     <meta name="msapplication-square310x310logo" content="/largetile.png" />
-    -->
+
 
   </head>
   <body>
@@ -52,6 +60,8 @@
     <script src="/js/jquery-3.2.0.min.js"></script>
     <script src="/tests.js"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    
+    <script>
+      addToHomescreen();
+    </script>
   </body>
 </html>
