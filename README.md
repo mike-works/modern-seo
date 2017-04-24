@@ -5,6 +5,7 @@ A project companion for SEO training workships
 To run:
 
 ```sh
+npm install
 ./run --exercise <exercise name>
 ```
 
