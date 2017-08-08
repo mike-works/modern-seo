@@ -4,6 +4,7 @@
   "description": "A Modern SEO workshop project",
   "main": "index.js",
   "scripts": {
+    "test": "echo 'sorry, no tests. We can still verify that dependencies are installed though!'"
   },
   "repository": {
     "type": "git",
