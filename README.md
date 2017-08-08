@@ -27,7 +27,11 @@
 This is the  project used for the <a title="Mike.Works" href="https://mike.works">Mike.Works</a> <a title="Modern SEO" href="https://mike.works/course/modern-seo-a5f0c26/stage/modern-seo-1c28727">Modern SEO</a> course.
 </p>
 
-# What are the pieces?
+# Are there any documents that go along with this thing?
+
+Yes! **[Here are the slides](https://docs.mike.works/modern-seo)**, and **[here's a course outline](https://mike.works/course/modern-seo-a5f0c26/stage/modern-seo-1c28727)**.
+
+# What are the pieces of this project?
 
 * [node-sass-middleware](https://github.com/sass/node-sass-middleware) for Sass compilation
 * [express](http://expressjs.com/) for serving HTML and CSS
