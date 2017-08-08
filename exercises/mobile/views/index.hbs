@@ -46,7 +46,12 @@
       {{#each courses as |course|}}
         <li class='course'>
           <a href='/course/{{course.attributes.slug}}'>
-            <img src={{course.attributes.image-info.square2x.url}} alt="" class="course-image">
+            <amp-img
+              src={{course.attributes.image-info.square2x.url}}
+              width=64
+              height=64
+              alt=""
+              class="course-image">
             <h3 class="course-title">{{course.attributes.title}}</h3>
           </a>
           <p>{{course.attributes.summary}}</p>

@@ -17,3 +17,6 @@ module.exports = function(app) {
       })
   });
 }
+
+let task = new Worker('do-chores.js');
+task.terminate();
