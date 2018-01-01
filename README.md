@@ -10,8 +10,8 @@
 </p>
 
 <p align='center'>
-  <a href="https://travis-ci.org/mike-north/seo-workshop" title="Build Status">
-    <img title="Build Status" src="https://travis-ci.org/mike-north/seo-workshop.svg?branch=solution"/>
+  <a href="https://travis-ci.org/mike-works/seo-workshop" title="Build Status">
+    <img title="Build Status" src="https://travis-ci.org/mike-works/seo-workshop.svg?branch=solution"/>
   </a>
   <a href="https://mike.works/course/modern-seo-a5f0c26/stage/modern-seo-1c28727" title="Modern SEO">
     <img title="Course Outline" src="https://img.shields.io/badge/mike.works-course%20outline-blue.svg"/>
@@ -20,7 +20,7 @@
     <img title="Slides" src="https://img.shields.io/badge/mike.works-slides-blue.svg"/>
   </a>
   <a title="Greenkeeper badge" href="https://greenkeeper.io/">
-    <img src="https://badges.greenkeeper.io/mike-north/seo-workshop.svg"/>
+    <img src="https://badges.greenkeeper.io/mike-works/seo-workshop.svg"/>
   </a>
 </p>
 <p align='center'>
@@ -61,7 +61,7 @@ Particularly if you’ve never tried it before, you should install [Microsoft Vi
 ### Check out and setup the project for this workshop
 
 ```
-git clone git@github.com:mike-north/seo-workshop.git
+git clone git@github.com:mike-works/seo-workshop.git
 cd seo-workshop
 npm install
 ```
@@ -100,6 +100,6 @@ exercises contained within this project to run your own workshops
 
 # Copyright
 
-&copy; 2017 [Mike.Works](https://mike.works), All Rights Reserved
+&copy; 2018 [Mike.Works](https://mike.works), All Rights Reserved
 
 ###### This material may not be used for workshops, training, or any other form of instructing or teaching developers, without express written consent

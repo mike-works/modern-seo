@@ -8,18 +8,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mike-north/seo-workshop.git"
+    "url": "git+https://github.com/mike-works/seo-workshop.git"
   },
   "keywords": [
     "seo",
     "css"
   ],
   "author": "Mike North <michael.l.north@gmail.com> (https://mike.works)",
-  "license": "UNLICENSED",
+  "license": "bsd-3-clause",
   "bugs": {
-    "url": "https://github.com/mike-north/seo-workshop/issues"
+    "url": "https://github.com/mike-works/seo-workshop/issues"
   },
-  "homepage": "https://github.com/mike-north/seo-workshop#readme",
+  "homepage": "https://github.com/mike-works/seo-workshop#readme",
   "dependencies": {
     "chalk": "^2.1.0",
     "commander": "^2.9.0",
