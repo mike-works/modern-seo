@@ -8,18 +8,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mike-works/seo-workshop.git"
+    "url": "git+https://github.com/mike-works/modern-seo.git"
   },
   "keywords": [
     "seo",
     "css"
   ],
   "author": "Mike North <michael.l.north@gmail.com> (https://mike.works)",
-  "license": "bsd-3-clause",
+  "license": "BSD-3-Clause",
   "bugs": {
-    "url": "https://github.com/mike-works/seo-workshop/issues"
+    "url": "https://github.com/mike-works/modern-seo/issues"
   },
-  "homepage": "https://github.com/mike-works/seo-workshop#readme",
+  "homepage": "https://github.com/mike-works/modern-seo#readme",
   "dependencies": {
     "chalk": "^2.1.0",
     "commander": "^2.9.0",
