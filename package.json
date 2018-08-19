@@ -24,7 +24,7 @@
     "chalk": "^2.1.0",
     "commander": "^2.9.0",
     "express": "^4.15.2",
-    "greenkeeper-lockfile": "^1.8.0",
+    "greenkeeper-lockfile": "^1.15.1",
     "hbs": "^4.0.1",
     "livereload": "^0.7.0",
     "node-fetch": "^1.6.3",
