@@ -10,11 +10,11 @@
 </p>
 
 <p align='center'>
-  <a href="https://mike.works/course/modern-seo-a5f0c26/stage/modern-seo-1c28727" title="Modern SEO">
-    <img title="Course Outline" src="https://img.shields.io/badge/mike.works-course%20outline-blue.svg"/>
+  <a href="https://travis-ci.org/mike-works/modern-seo" title="Build Status">
+    <img title="Build Status" src="https://travis-ci.org/mike-works/modern-seo.svg?branch=solutions"/>
   </a>
-  <a href="https://docs.mike.works/modern-seo" title="Slides">
-    <img title="Slides" src="https://img.shields.io/badge/mike.works-slides-blue.svg"/>
+  <a href="https://github.com/mike-works/modern-seo/releases" title="Version">
+    <img title="Version" src="https://img.shields.io/github/tag/mike-works/modern-seo.svg" />
   </a>
 </p>
 <p align='center'>
