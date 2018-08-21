@@ -11,7 +11,7 @@
 
 <p align='center'>
   <a href="https://travis-ci.org/mike-works/modern-seo" title="Build Status">
-    <img title="Build Status" src="https://travis-ci.org/mike-works/modern-seo.svg?branch=solutions"/>
+    <img title="Build Status" src="https://travis-ci.org/mike-works/modern-seo.svg"/>
   </a>
   <a href="https://github.com/mike-works/modern-seo/releases" title="Version">
     <img title="Version" src="https://img.shields.io/github/tag/mike-works/modern-seo.svg" />
