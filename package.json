@@ -36,6 +36,6 @@
   },
   "devDependencies": {
     "@mike-works/workshop-semantic-release-config": "^1.0.0",
-    "semantic-release": "^15.9.12"
+    "semantic-release": "^15.9.14"
   }
 }
