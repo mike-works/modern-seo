@@ -2,12 +2,12 @@
 # yarn lockfile v1
 
 
-"@mike-works/js-lib-renovate-config@^2.0.0":
+"@mike-works/js-lib-renovate-config@2.0.0":
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/@mike-works/js-lib-renovate-config/-/js-lib-renovate-config-2.0.0.tgz#eb9b1cb4b68e38ba4e59ae5ef853def84d329397"
   integrity sha512-hzw/xYMwE1jcKK+pAaqIo3brzzn5ktR73odlPn3SUJJ1MxSuoxlfgWpYrbxuvkwfuS8qVBhVlDJIibCot+Ad6A==
 
-"@mike-works/workshop-semantic-release-config@^1.0.0":
+"@mike-works/workshop-semantic-release-config@1.0.0":
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/@mike-works/workshop-semantic-release-config/-/workshop-semantic-release-config-1.0.0.tgz#7b4aeaec917a758428da98c3e838c0a5da64a97d"
   integrity sha512-AVyv2KKDXp8NIFoLoZR6IcsDMCy+whpu5pmIpG5tfNqWTo7JNOuE2AsL8LeLxaMD9TxLe1CsLj1zYDxllnZi/w==
@@ -747,6 +747,15 @@ center-align@^0.1.1:
     align-text "^0.1.3"
     lazy-cache "^1.0.3"
 
+chalk@2.4.1, chalk@^2.0.1, chalk@^2.3.2, chalk@^2.4.1:
+  version "2.4.1"
+  resolved "https://registry.yarnpkg.com/chalk/-/chalk-2.4.1.tgz#18c49ab16a037b6eb0152cc83e3471338215b66e"
+  integrity sha512-ObN6h1v2fTJSmUXoS3nMQ92LbDK9be4TV+6G+omQlGJFdcUX5heKi1LZ1YnRMIgwTLEj3E24bT6tYni50rlCfQ==
+  dependencies:
+    ansi-styles "^3.2.1"
+    escape-string-regexp "^1.0.5"
+    supports-color "^5.3.0"
+
 chalk@^1.1.1:
   version "1.1.3"
   resolved "https://registry.yarnpkg.com/chalk/-/chalk-1.1.3.tgz#a8115c55e4a702fe4d150abd3872822a7e09fc98"
@@ -757,15 +766,6 @@ chalk@^1.1.1:
     has-ansi "^2.0.0"
     strip-ansi "^3.0.0"
     supports-color "^2.0.0"
-
-chalk@^2.0.1, chalk@^2.3.2, chalk@^2.4.1:
-  version "2.4.1"
-  resolved "https://registry.yarnpkg.com/chalk/-/chalk-2.4.1.tgz#18c49ab16a037b6eb0152cc83e3471338215b66e"
-  integrity sha512-ObN6h1v2fTJSmUXoS3nMQ92LbDK9be4TV+6G+omQlGJFdcUX5heKi1LZ1YnRMIgwTLEj3E24bT6tYni50rlCfQ==
-  dependencies:
-    ansi-styles "^3.2.1"
-    escape-string-regexp "^1.0.5"
-    supports-color "^5.3.0"
 
 chokidar@^1.7.0:
   version "1.7.0"
@@ -940,7 +940,7 @@ combined-stream@^1.0.6, combined-stream@~1.0.6:
   dependencies:
     delayed-stream "~1.0.0"
 
-commander@^2.19.0:
+commander@2.19.0:
   version "2.19.0"
   resolved "https://registry.yarnpkg.com/commander/-/commander-2.19.0.tgz#f6198aa84e5b83c46054b94ddedbfed5ee9ff12a"
   integrity sha512-6tvAOO+D6OENvRAh524Dh9jcfKTYDQAqvqezbCW82xj5X0pSrcpxtvRKHLG0yBY6SD7PSDrJaj+0AiOcKVd1Xg==
@@ -1510,7 +1510,7 @@ expand-range@^1.8.1:
   dependencies:
     fill-range "^2.1.0"
 
-express@^4.16.4:
+express@4.16.4:
   version "4.16.4"
   resolved "https://registry.yarnpkg.com/express/-/express-4.16.4.tgz#fddef61926109e24c515ea97fd2f1bdbf62df12e"
   integrity sha512-j12Uuyb4FMrd/qQAm6uCHAkPtO8FDTRJZBDd5D2KOL2eLaz1yUNdUB/NOIyq0iU4q4cFarsUCrnFDPBcnksuOg==
@@ -2095,7 +2095,7 @@ has-values@^1.0.0:
     is-number "^3.0.0"
     kind-of "^4.0.0"
 
-hbs@^4.0.1:
+hbs@4.0.1:
   version "4.0.1"
   resolved "https://registry.yarnpkg.com/hbs/-/hbs-4.0.1.tgz#4bfd98650dc8c9dac44b3ca9adf9c098e8bc33b6"
   integrity sha1-S/2YZQ3IydrESzyprfnAmOi8M7Y=
@@ -2779,7 +2779,7 @@ libnpx@^10.2.0:
     y18n "^4.0.0"
     yargs "^11.0.0"
 
-livereload@^0.7.0:
+livereload@0.7.0:
   version "0.7.0"
   resolved "https://registry.yarnpkg.com/livereload/-/livereload-0.7.0.tgz#38238dd155ffb251191697f737b6b13f471da115"
   integrity sha512-PHnIGczQEvmCctDvRTWylA+1wSwE0/eFm+LkNhlmlAFus/aCRlVE97UOLOf6TUGLmZyfg7z7twG37ZiOgNJAyQ==
@@ -3368,7 +3368,7 @@ node-fetch-npm@^2.0.2:
     json-parse-better-errors "^1.0.0"
     safe-buffer "^5.1.1"
 
-node-fetch@^2.1.1, node-fetch@^2.2.0:
+node-fetch@2.2.1, node-fetch@^2.1.1:
   version "2.2.1"
   resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.2.1.tgz#1fe551e0ded6c45b3b3b937d0fb46f76df718d1e"
   integrity sha512-ObXBpNCD3A/vYQiQtEWl7DuqjAXjfptYFuGHLdPl5U19/6kJuZV+8uMHLrkj3wJrJoyfg4nhgyFixZdaZoAiEQ==
@@ -3407,7 +3407,7 @@ node-pre-gyp@^0.10.0:
     semver "^5.3.0"
     tar "^4"
 
-node-sass-middleware@^0.11.0:
+node-sass-middleware@0.11.0:
   version "0.11.0"
   resolved "https://registry.yarnpkg.com/node-sass-middleware/-/node-sass-middleware-0.11.0.tgz#2ab56124362941102e2cd54d8a1c1cef445afb15"
   integrity sha1-KrVhJDYpQRAuLNVNihwc70Ra+xU=
@@ -3415,7 +3415,7 @@ node-sass-middleware@^0.11.0:
     mkdirp "^0.5.1"
     node-sass "^4.3.0"
 
-node-sass@^4.3.0, node-sass@^4.9.4:
+node-sass@4.10.0, node-sass@^4.3.0:
   version "4.10.0"
   resolved "https://registry.yarnpkg.com/node-sass/-/node-sass-4.10.0.tgz#dcc2b364c0913630945ccbf7a2bbf1f926effca4"
   integrity sha512-fDQJfXszw6vek63Fe/ldkYXmRYK/QS6NbvM3i5oEo9ntPDy4XX7BcKZyTKv+/kSSxRtXXc7l+MSwEmYc0CSy6Q==
@@ -4653,7 +4653,7 @@ scss-tokenizer@^0.2.3:
     js-base64 "^2.1.8"
     source-map "^0.4.2"
 
-semantic-release@^15.10.6:
+semantic-release@15.10.8:
   version "15.10.8"
   resolved "https://registry.yarnpkg.com/semantic-release/-/semantic-release-15.10.8.tgz#07027a159199148998dc5f246ed6533d0441851c"
   integrity sha512-+n1eQArIw0TROFFwyf6csSLtKPt47goFbYk0ROAz3ja0r0ltV/ClKNCN6bkV2XzVlvTYqYFY6yutOIvPr1K4hQ==

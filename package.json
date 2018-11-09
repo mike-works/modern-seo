@@ -22,21 +22,21 @@
   },
   "homepage": "https://github.com/mike-works/modern-seo#readme",
   "dependencies": {
-    "chalk": "^2.4.1",
-    "commander": "^2.19.0",
-    "express": "^4.16.4",
-    "hbs": "^4.0.1",
-    "livereload": "^0.7.0",
-    "node-fetch": "^2.2.0",
-    "node-sass": "^4.9.4",
-    "node-sass-middleware": "^0.11.0"
+    "chalk": "2.4.1",
+    "commander": "2.19.0",
+    "express": "4.16.4",
+    "hbs": "4.0.1",
+    "livereload": "0.7.0",
+    "node-fetch": "2.2.1",
+    "node-sass": "4.10.0",
+    "node-sass-middleware": "0.11.0"
   },
   "release": {
     "extends": "@mike-works/workshop-semantic-release-config"
   },
   "devDependencies": {
-    "@mike-works/js-lib-renovate-config": "^2.0.0",
-    "@mike-works/workshop-semantic-release-config": "^1.0.0",
-    "semantic-release": "^15.10.6"
+    "@mike-works/js-lib-renovate-config": "2.0.0",
+    "@mike-works/workshop-semantic-release-config": "1.0.0",
+    "semantic-release": "15.10.8"
   }
 }
