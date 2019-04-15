@@ -25,7 +25,7 @@
     "chalk": "2.4.2",
     "commander": "2.20.0",
     "express": "4.16.4",
-    "hbs": "4.0.3",
+    "hbs": "4.0.4",
     "livereload": "0.7.0",
     "node-fetch": "2.3.0",
     "node-sass": "4.11.0",
