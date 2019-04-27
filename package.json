@@ -27,7 +27,7 @@
     "express": "4.16.4",
     "hbs": "4.0.4",
     "livereload": "0.7.0",
-    "node-fetch": "2.4.0",
+    "node-fetch": "2.4.1",
     "node-sass": "4.12.0",
     "node-sass-middleware": "0.11.0"
   },
