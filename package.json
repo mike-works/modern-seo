@@ -28,7 +28,7 @@
     "hbs": "4.1.0",
     "livereload": "0.8.2",
     "node-fetch": "2.6.0",
-    "node-sass": "4.13.0",
+    "node-sass": "4.13.1",
     "node-sass-middleware": "0.11.0"
   },
   "release": {
