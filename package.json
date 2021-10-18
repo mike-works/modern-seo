@@ -23,7 +23,7 @@
   "homepage": "https://github.com/mike-works/modern-seo#readme",
   "dependencies": {
     "chalk": "2.4.2",
-    "commander": "2.20.3",
+    "commander": "8.2.0",
     "express": "4.17.1",
     "hbs": "4.1.2",
     "livereload": "0.9.3",
