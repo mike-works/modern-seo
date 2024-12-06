@@ -24,7 +24,7 @@
   "dependencies": {
     "chalk": "2.4.2",
     "commander": "2.20.3",
-    "express": "4.21.1",
+    "express": "4.21.2",
     "hbs": "4.2.0",
     "livereload": "0.9.3",
     "node-fetch": "2.7.0",
