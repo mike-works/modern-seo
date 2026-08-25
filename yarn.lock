@@ -2193,10 +2193,10 @@ hasown@^2.0.2:
   dependencies:
     function-bind "^1.1.2"
 
-hbs@4.2.1:
-  version "4.2.1"
-  resolved "https://registry.yarnpkg.com/hbs/-/hbs-4.2.1.tgz#cf7ad4146d36c874cc69c41bf7d75977734e7e57"
-  integrity sha512-jkX8bTB17JCUMhyDobTkbMcdZi3xOplVbWjzp8i40O6ZITQhcjGIy11AmF51IyBe80GnJIRhUtKL9dg/ho/uog==
+hbs@4.3.0:
+  version "4.3.0"
+  resolved "https://registry.yarnpkg.com/hbs/-/hbs-4.3.0.tgz#caffbc2ab26426f74354ced8128ce19c598578d5"
+  integrity sha512-8QfAEcFcNXUw4facL8L0P4mGa0bC6v1QzYifhGsLITMYpnf+E2qwjJZKXPQc3xpbrQW9JY05mQW4rDVhQzKstw==
   dependencies:
     handlebars "4.7.9"
     walk "2.3.15"
