@@ -37,6 +37,6 @@
   "devDependencies": {
     "@mike-works/js-lib-renovate-config": "2.0.0",
     "@mike-works/workshop-semantic-release-config": "1.0.0",
-    "semantic-release": "15.14.0"
+    "semantic-release": "17.2.3"
   }
 }
