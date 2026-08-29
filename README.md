@@ -23,7 +23,7 @@ This is the  project used for the <a title="Mike.Works" href="https://mike.works
 
 # Course outline and slides
  * [View course outline here](https://mike.works/course/modern-seo-a5f0c26/stage/modern-seo-1c28727)
- * [View slides here](https://docs.mike.works/modern-seo)
+ * [View slides here](https://static.frontendmasters.com/assets/courses/2017-06-15-modern-seo/modern-seo-slides.pdf)
 
 # What are the pieces of this project?
 
